@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	int i;
+	int k = 1;
+	cout << "Nama : Abdul Halim \nNIM : 22343001\n\n";
+	
+
+	//mebuat program perulangan
+	cout << "masukkan sebuah bilangan ; ";
+	cin >> k;
+	
+	if (k%2==0){
+		cout << "bilangan yang anda masukkan adalah genap";
+	}
+	else
+	cout << "bilangan yang anda masukkan adalah ganjil : " << endl;
+	
+	return 0;
+}
