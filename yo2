@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+//programed by Abdduul
+int main(){
+	int i=1, k;
+	
+	cout << "PROGARAM WHILE\n";
+	
+	//PROGRAM MENAMPILAKAN BILANGAN KELIPATAN 3
+	cout << "masukkan jumlah kelipnatan 3 yang ingin ditampilkan : ";
+	cin>>k;
+	
+	while (i<=k){
+		cout << i*3 << " ";
+		++i;
+	}
+	
+	return 0;
+}
