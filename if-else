@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+// program by abdul halim
+int main(){
+	int tt, bb;
+	
+	cout << "ENTER YOUR BIRTH";
+	cout << "\nDAY : ";
+	cin >> tt;
+	cout << "MONTH : ";
+	cin >> bb;
+	cout << "\nYOUR ZODIAK IS : \n\n";
+	
+	if ((tt>=21 && tt <= 31 && bb==1) || (tt>=1 && tt<=19 && bb==2)){
+		cout << "AQUARIUS" << endl;
+	}
+	else if ((tt>=20 && tt <= 29 && bb==2) || (tt>=1 && tt<=20 && bb==3)){
+		cout << "PISCES"<< endl;
+	}
+	else if ((tt>=21 && tt <= 31 && bb==3) || (tt>=1 && tt<=19 && bb==4)){
+		cout << "ARIES"<< endl;
+	}
+	else if ((tt>=20 && tt <= 30 && bb==4) || (tt>=1 && tt<=20 && bb==5)){
+		cout << "TAURUS"<< endl;
+	}
+	else if ((tt>=21 && tt <= 31 && bb==5) || (tt>=1 && tt<=21 && bb==6)){
+		cout << "GEMINI"<< endl;
+	}
+	else if ((tt>=22 && tt <= 30 && bb==6) || (tt>=1 && tt<=23 && bb==7)){
+		cout << "CANCER"<< endl;
+	}
+	else if ((tt>=24 && tt <= 31 && bb==7) || (tt>=1 && tt<=23 && bb==8)){
+		cout << "LEO"<< endl;
+	}
+	else if ((tt>=24 && tt <= 31 && bb==8) || (tt>=1 && tt<=22 && bb==9)){
+		cout << "VIRGO"<< endl;
+	}
+	else if ((tt>=23 && tt <= 30 && bb==9) || (tt>=1 && tt<=22 && bb==10)){
+		cout << "LIBRA"<< endl;
+	}
+	else if ((tt>=23 && tt <= 31 && bb==10) || (tt>=1 && tt<=22 && bb==11)){
+		cout << "SCORPIO"<< endl;
+	}
+	else if ((tt>=23 && tt <= 30 && bb==11) || (tt>=1 && tt<=20 && bb==12)){
+		cout << "SAGITARIUS"<< endl;
+	}
+	else if ((tt>=22 && tt <= 31 && bb==12) || (tt>=1 && tt<=20 && bb==1)){
+		cout << "CAPRICORN"<< endl;
+	}
+	else {
+		cout << "DAY/MONTH YOU ARE ENTERED IS WRONG";
+	}
+	return 0;
+}
